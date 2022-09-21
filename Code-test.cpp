@@ -6,7 +6,7 @@ using namespace std;
 class Users{
 public:
     string Username;
-    Users();
+    Users()；
     ~Users();
 private:
     string realname;
