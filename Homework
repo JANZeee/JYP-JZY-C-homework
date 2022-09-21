@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+class Users{
+public:
+    string Username;
+    Users();
+private:
+    string realname;
+    int student_id;
+    string password;
+};
+Users::Users(){
+
+};
+int main()
+{
+    std::cout << "Hello World!\n";
+}
